@@ -1,0 +1,20 @@
+﻿Mark Asfour
+SID: 861098237
+5/2/16
+CS 171
+PS3
+
+
+2) 
+w0 serves as your initial guess to separating the data. 
+The time it takes for the algorithm to find a solution depending on how close w0 to the solution. 
+For instance, a guess with only one point that is incorrect can find a result much faster compared to a guess with a majority of the points guessed incorrectly. 
+Eta dictates how much of an alteration to the weights occurs for every points marked incorrectly. 
+Similar to a stepping function, an eta too high can make the weights jump around drastically and always skip the desired answer whereas an eta too low can cause the algorithm to take a long time to reach the desired answer. 
+These two characteristics suggest that the effectiveness of the perceptron algorithm is subject to the ability of picking the ideal w0 and eta. 
+
+
+3)
+I tested the learn logarithmic regression algorithm with both linear and quadratic models using lambas = [0.01, 0.1, 1, 10, 100, 1000]. 
+The lambdas give a large enough range to easily see what trend is occurring.
+After running, the augmented feature set (the quadratic model) with a low lambda proves to be the best because it has the highest success rate compared with the other lambdas and the linear model.
